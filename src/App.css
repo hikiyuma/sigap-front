@@ -104,7 +104,8 @@ border-radius: 8px;
 .colorI{
   color: #215c75;
 }
-/* input{
+/*
+.login-input{
     width: 190px;
     padding: 12px 20px;
     margin: 8px 3;
@@ -114,7 +115,7 @@ border-radius: 8px;
     box-sizing: border-box;
     background-position: 2px 10px; 
     background-repeat: no-repeat;
-} */
+}*/
 
 label {
  
@@ -139,37 +140,7 @@ label {
   margin-right:20px;
   margin-top:20px;
  }
-/* 
-.pagination{
-  display: inline-block;
-}
-.pagination li{
-  display: inline;
-}
-.pagination li a{
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 5px;
-    background: fuchsia;
-    border: 1px solid #ddd; /* Gray *
-    }
-    /
 
-
-.pagination li a:hover{
-  color: black;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-radius: 5px;
-  background: violet;
-}
-.pagination li a.active{
-  background-color: #4CAF50;
-    color: white;
-} */
 .margencomponente{
   margin-top: 50px;
 }

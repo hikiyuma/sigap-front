@@ -548,17 +548,17 @@ this.setState({
           }
 
 
-  Regresar=(e)=>{
-    try{
-      this.closeNav();
-    }
-    catch(error){
-      //Nothing happens
-    }
-    browserHistory.push('/');
-    e.preventDefault();
-
-  }
+          Regresar=(e)=>{
+            try{
+              this.closeNav();
+            }
+            catch(error){
+              //Nothing happens
+            }
+            browserHistory.push('/vista/programas'); //no habia nada solo estaba el slash
+            e.preventDefault();
+        
+          }
 
 
   editarEstado = (e) => {
@@ -813,7 +813,7 @@ this.setState({
                 <a href="javascript:void(0)" class="closebtn" onClick={this.closeNav}>×</a>
                 <a href="#" onClick={this.seguimientoEgresados}>Seguimiento de Egresados</a>
                 <a href="#" onClick={this.enviarFormulario}>Revisar Beneficio</a>
-                <a href="#" onClick={this.Regresar}>Regresar</a>
+                <a href="#" onClick={this.browserHistory.goBack}>Regresar</a>
               </div>
               {/*Fin*/}
               <table className="table-small">
